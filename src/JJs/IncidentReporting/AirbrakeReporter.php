@@ -189,7 +189,7 @@ class AirbrakeReporter implements ReporterInterface
     {
         $xml->startElement('backtrace');
         foreach ($error->getBacktrace() as $backtrace) {
-            $this->writeBacktrace($xml, $backtrace);
+            $this->writeBacktraceLine($xml, $backtrace);
         }
         $xml->endElement();
     }

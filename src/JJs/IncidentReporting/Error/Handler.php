@@ -2,6 +2,8 @@
 
 namespace JJs\IncidentReporting\Error;
 
+use JJs\IncidentReporting\ReporterInterface;
+
 /**
  * Error Handler
  *

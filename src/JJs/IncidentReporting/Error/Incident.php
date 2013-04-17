@@ -1,6 +1,6 @@
 <?php
 
-namespace JJs\IncidentReporting\Exception;
+namespace JJs\IncidentReporting\Error;
 
 use Exception;
 use JJs\IncidentReporting\ErrorInterface;
