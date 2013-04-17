@@ -1,0 +1,24 @@
+{
+    "name": "josiah/incident-reporting",
+    "description": "Incident reporting to an airbrake compatible API",
+    "keywords": ["error reporting", "airbrake", "exception handling"],
+    "homepage": "https://github.com/Josiah/IncidentReporting",
+    "support": {
+        "email": "josiah@jjs.id.au",
+        "issues": "https://github.com/Josiah/IncidentReporting/issues",
+        "source": "https://github.com/Josiah/IncidentReporting"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josiah",
+            "email": "josiah@jjs.id.au"
+        }
+    ],
+    "require": {
+        "guzzle/guzzle": "~3.4"
+    },
+    "autoload": {
+        "psr-0": {"JJs\\IncidentReporting": "src/"}
+    }
+}
