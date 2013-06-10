@@ -41,7 +41,7 @@ class Handler
     public function handle(Exception $exception)
     {
         // Generate a new exception incident and report it
-        $incident = new ExceptionIncident($exception);
+        $incident = new Incident($exception);
         $this->reporter->report($incident);
 
         // Restore the previous exception handler and let it handle the
